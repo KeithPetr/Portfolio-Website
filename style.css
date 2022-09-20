@@ -56,7 +56,11 @@ section {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+}
+
+#large-counter-img {
+  height: 100%;
 }
 
 strong {
