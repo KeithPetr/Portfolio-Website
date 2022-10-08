@@ -194,6 +194,7 @@ header {
   right: 1em;
   top: 1em;
   z-index: 1000;
+  
 }
 
 .nav-open .nav {
@@ -389,7 +390,6 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: 300px 300px;
-  grid-auto-flow: dense;
   grid-gap: 5px;
 }
 
