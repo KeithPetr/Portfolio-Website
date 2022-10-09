@@ -142,11 +142,16 @@ h3 {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 1em;
+  padding-left: 1em;
+  
 }
 
-.logo {
-  max-width: 200px;
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: -webkit-linear-gradient(60deg, rgb(138, 8, 138), #053afa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav {
@@ -320,7 +325,7 @@ header {
 }
 
 .service {
-  max-width: 500px;
+  width: 500px;
   margin: 0 auto;
 }
 
@@ -454,8 +459,20 @@ header {
   margin: 0 0.5em;
 }
 
+.social-list__item:hover {
+  cursor: pointer;
+}
+
+.social-list__item:active {
+  transform: translateY(3px);
+}
+
 .social-list__link {
   padding: 0.5em;
+}
+
+.fa-brands {
+  margin-left: 0.25em;
 }
 
 /* Portfolio Item Styles */
