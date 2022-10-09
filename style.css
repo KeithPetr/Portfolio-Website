@@ -146,7 +146,7 @@ header {
   
 }
 
-#logo {
+.logo {
   font-size: 1.5rem;
   font-weight: bold;
   background: -webkit-linear-gradient(60deg, rgb(138, 8, 138), #053afa);
