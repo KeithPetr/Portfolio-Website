@@ -469,10 +469,10 @@ header {
 
 .social-list__link {
   padding: 0;
+  text-align: center;
 }
 
 .social-list > .social-list__item > a > p {
-  text-align: center;
   margin: 0;
 }
 
