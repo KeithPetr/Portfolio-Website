@@ -48,6 +48,7 @@ body {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
+  min-width: 400px;
 }
 
 section {
@@ -427,6 +428,7 @@ header {
   text-align: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);
+  margin-bottom: 0;
 }
 
 .footer a {
@@ -474,10 +476,6 @@ header {
 
 .social-list > .social-list__item > a > p {
   margin: 0;
-}
-
-.fa-brands {
-  margin-left: 0.25em;
 }
 
 /* Portfolio Item Styles */
