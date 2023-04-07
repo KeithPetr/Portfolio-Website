@@ -113,6 +113,7 @@ h3 {
 
 .section__title--intro {
   font-weight: var(--fw-reg);
+  text-align: center;
 }
 
 .section__title--intro strong {
@@ -144,7 +145,6 @@ header {
   display: flex;
   justify-content: space-between;
   padding-left: 1em;
-  
 }
 
 .logo {
@@ -200,7 +200,6 @@ header {
   right: 1em;
   top: 1em;
   z-index: 1000;
-  
 }
 
 .nav-open .nav {
@@ -261,10 +260,15 @@ header {
 
 .intro__img {
   box-shadow: var(--bs);
+  
+  margin: 0 auto;
 }
 
 .section__subtitle--intro {
-  display: inline-block;
+  display: block;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto 1em;
 }
 
 @media (min-width: 600px) {
@@ -327,6 +331,11 @@ header {
 
 .service {
   max-width: 500px;
+  margin: 1em auto;
+}
+
+.service img {
+  width: 100px;
   margin: 0 auto;
 }
 
@@ -340,6 +349,11 @@ header {
 
   .service + .service {
     margin-left: 2em;
+  }
+
+  .service img {
+    width: 150px;
+    margin: 0 auto;
   }
 }
 
@@ -404,9 +418,7 @@ header {
 }
 
 .portfolio__img {
-  transition: 
-    transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
-    opacity 250ms linear;
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
 }
 
 .portfolio__item:focus {
@@ -482,12 +494,17 @@ header {
 
 .portfolio-item-individual {
   padding: 0 2em 2em;
-  max-width: 1000px;
+  max-width: 800px;
   margin: 0 auto;
+  text-align: left;
+}
+
+.portfolio-item-individual h3 {
+  
 }
 
 .portfolio-item-individual p {
-  max-width: 600px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -496,4 +513,8 @@ header {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.portfolio-item-title {
+
 }

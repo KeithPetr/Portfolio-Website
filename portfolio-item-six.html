@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizzical App Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b6dc2920d5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <p>Always Be Coding!</p>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        <strong>Qizzical</strong> <strong>App</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img
+        src="img/Quizzical-App-Screenshot.png"
+        alt="my quiz react project"
+        class="intro__img"
+      />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <h3>
+        A Scrimba FrontEnd Developer Path Project
+      </h3>
+      <p>
+        This project accesses the Open Trivia Database to generate random
+        quizzes. The quiz page generates random questions and the associcated
+        answers to them. The user can then select an answer to each question.
+        Finally, the user can click the chekc answer button to see how many
+        questions they correctly answered.
+      </p>
+      <h3>Programming Languages Used</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>JSX</li>
+        <li>React</li>
+      </ul>
+      <h3>Project Requirements</h3>
+      <p>This project required me to create 2 screens</p>
+      <p>Click on the image below to go to the application</p>
+      <a href="https://keith-quizzical-app.netlify.app/" target="_blank"
+        ><img src="gif/Quizzical-Gif.gif" alt="quizical app gif"
+      /></a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:keith.petryshyn@gmail.com" class="footer__link"
+        >keith.petryshyn@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://github.com/KeithPetr"
+            target="_blank"
+            class="social-list__link"
+          >
+            <p>Source Code</p>
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.instagram.com/birdingsnaps/?hl=en"
+            target="_blank"
+            class="social-list__link"
+          >
+            <p>Birding Photos</p>
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/keith-petryshyn-886b5016/"
+            target="_blank"
+            class="social-list__link"
+          >
+            <p>Work Experience</p>
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://twitter.com/KeithABCoding"
+            target="_blank"
+            class="social-list__link"
+          >
+            <p>Coding Updates</p>
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
